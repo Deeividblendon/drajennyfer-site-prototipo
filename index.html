@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dra. Jennyfer Lays — Cirurgiã Dentista</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="nav">
+      <div class="mono">JL</div>
+      <nav>
+        <a href="#tratamentos">Tratamentos</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#depoimentos">Depoimentos</a>
+      </nav>
+      <a href="https://wa.me/5500000000000" class="btn btn-line">Agendar</a>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow reveal">Clínico Geral · Dentística — São Paulo/SP</p>
+        <h1 class="reveal d1">
+          Um sorriso <em>cuidado</em> é uma primeira impressão que fica.
+        </h1>
+        <p class="lead reveal d2">
+          Atendimento próximo, técnica atualizada e tratamentos pensados pra
+          durar — da limpeza de rotina à dentística estética.
+        </p>
+        <div class="cta-row reveal d3">
+          <a href="https://wa.me/5500000000000" class="btn btn-fill"
+            >Agendar avaliação</a
+          >
+          <a href="#tratamentos" class="btn btn-line">Ver tratamentos</a>
+        </div>
+      </div>
+      <div class="hero-art reveal d2">
+        <svg viewBox="0 0 300 300" class="smile-svg">
+          <path
+            id="smile"
+            d="M40 130 Q150 230 260 130"
+            fill="none"
+            stroke="#7a2530"
+            stroke-width="5"
+            stroke-linecap="round"
+          />
+          <circle cx="40" cy="130" r="5" fill="#b98a4e" />
+          <circle cx="260" cy="130" r="5" fill="#b98a4e" />
+        </svg>
+        <span class="art-tag">+8 anos de cuidado</span>
+      </div>
+    </section>
+
+    <div class="marquee">
+      <div class="track" id="track"></div>
+    </div>
+
+    <section class="stats" id="resultados">
+      <div class="stat">
+        <h3 data-count="8" data-suffix="+">0</h3>
+        <p>anos de atuação</p>
+      </div>
+      <div class="stat">
+        <h3 data-count="600" data-suffix="+">0</h3>
+        <p>pacientes atendidos</p>
+      </div>
+      <div class="stat">
+        <h3 data-count="4.9" data-decimal="1">0</h3>
+        <p>avaliação média</p>
+      </div>
+    </section>
+
+    <section class="before-after">
+      <div class="ba-text reveal">
+        <p class="eyebrow">Clareamento dental</p>
+        <h2>Resultado que aparece — e se mantém.</h2>
+        <p class="muted">
+          Arraste pra comparar um caso real de clareamento acompanhado em
+          consultório.
+        </p>
+      </div>
+      <div class="ba-slider reveal" id="baSlider">
+        <div class="ba-after">
+          <span class="ba-label right">Depois</span>
+        </div>
+        <div class="ba-before" id="baBefore">
+          <span class="ba-label left">Antes</span>
+        </div>
+        <div class="ba-handle" id="baHandle"><span></span></div>
+      </div>
+    </section>
+
+    <section class="treatments" id="tratamentos">
+      <p class="eyebrow reveal">Tratamentos</p>
+      <h2 class="reveal">Cuidado completo, em cada etapa.</h2>
+      <div class="t-grid">
+        <div class="t-card reveal">
+          <div class="t-icon">◐</div>
+          <h3>Clareamento</h3>
+          <p>Técnica segura, resultado visível já nas primeiras sessões.</p>
+        </div>
+        <div class="t-card reveal">
+          <div class="t-icon">◇</div>
+          <h3>Dentística</h3>
+          <p>Restaurações estéticas que devolvem naturalidade ao sorriso.</p>
+        </div>
+        <div class="t-card reveal">
+          <div class="t-icon">○</div>
+          <h3>Clínico geral</h3>
+          <p>Prevenção e manutenção pra sua saúde bucal no dia a dia.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials reveal" id="depoimentos">
+      <div class="t-slide-wrap">
+        <div class="t-slide active">
+          <p>
+            "Fui super bem recebida, expliquei minha ansiedade e a Dra. Jennyfer
+            teve toda paciência do mundo."
+          </p>
+          <span>— Paciente, tratamento de dentística</span>
+        </div>
+        <div class="t-slide">
+          <p>
+            "Meu clareamento ficou natural, ninguém percebe que foi feito — só
+            elogiam o sorriso."
+          </p>
+          <span>— Paciente, clareamento dental</span>
+        </div>
+        <div class="t-slide">
+          <p>
+            "Atendimento atencioso do início ao fim. Já indiquei pra família
+            toda."
+          </p>
+          <span>— Paciente, clínico geral</span>
+        </div>
+      </div>
+      <div class="dots" id="dots"></div>
+    </section>
+
+    <section class="final-cta reveal">
+      <h2>Vamos cuidar do seu sorriso?</h2>
+      <p class="muted">
+        Agendamentos pelo WhatsApp — resposta rápida, sem burocracia.
+      </p>
+      <a href="https://wa.me/5500000000000" class="btn btn-fill"
+        >Falar no WhatsApp</a
+      >
+    </section>
+
+    <footer>
+      <span>Dra. Jennyfer Lays · CRO 158339 · São Paulo/SP</span>
+    </footer>
+
+    <a
+      href="https://wa.me/5500000000000"
+      class="floating-wa"
+      aria-label="WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" width="26" height="26" fill="#fff">
+        <path
+          d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.5A10 10 0 1 0 12 2zm5.6 14.3c-.2.7-1.4 1.3-2 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3 0-1.4.7-2.1 1-2.4.3-.3.6-.3.8-.3h.6c.2 0 .5 0 .7.5.3.7.9 2.1 1 2.3.1.2.1.4 0 .6-.1.2-.2.3-.3.5-.2.2-.3.3-.5.5-.2.2-.3.4-.1.7.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.5 1.5.3.1.5.1.7-.1.2-.2.7-.8.9-1.1.2-.3.4-.2.7-.1.3.1 1.7.8 2 1 .3.1.5.2.6.3.1.2.1.9-.1 1.6z"
+        />
+      </svg>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
